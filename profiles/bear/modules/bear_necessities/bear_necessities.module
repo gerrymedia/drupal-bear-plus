@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Bear Necessities feature.
+ */
+
+include_once 'bear_necessities.features.inc';

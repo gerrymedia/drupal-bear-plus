@@ -1,0 +1,69 @@
+name = Bear
+description = A profile to give developers the tools needed for just about any site.
+core = 7.x
+
+# Core Extensions
+dependencies[] = contextual
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = options
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = update
+
+# Contrib Extensions
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
+dependencies[] = advagg
+dependencies[] = bear_necessities
+dependencies[] = coffee
+dependencies[] = ctools
+dependencies[] = views_content
+dependencies[] = page_manager
+dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = diff
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = devel
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = file_entity
+dependencies[] = globalredirect
+dependencies[] = linkit
+dependencies[] = media
+dependencies[] = media_youtube
+dependencies[] = menu_block
+dependencies[] = menu_position
+dependencies[] = panels
+dependencies[] = token
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = styleguide
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_linebreaks
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+
+files[] = bear.profile
+
+# System Requirements
+php_memory_limit = 128M
+
+; Information added by drupal.org packaging script on 2013-03-12
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "bear"
+datestamp = "1363048649"
+
